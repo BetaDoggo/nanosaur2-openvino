@@ -1,0 +1,16 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# model weights / converted IR (download from HuggingFace instead)
+downloads/
+models_ov/
+*.safetensors
+*.xml
+*.bin
+!assets/*
+
+# outputs
+*.png
+!assets/*.png

@@ -1,0 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+# torch stays at inference: initial noise uses torch.Generator to match ComfyUI's
+# seeded noise stream exactly (numpy's RNG would give different images per seed)
+torch>=2.6
+openvino>=2025.0
+huggingface_hub
+sentencepiece
+protobuf
+pillow
+numpy
